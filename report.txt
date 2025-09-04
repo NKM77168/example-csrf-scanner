@@ -1,0 +1,30 @@
+[*] Starting CSRF scan on http://testphp.vulnweb.com
+[+] Form found at http://testphp.vulnweb.com -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com
+[+] Form found at http://testphp.vulnweb.com/index.php -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/index.php
+[+] Form found at http://testphp.vulnweb.com/categories.php -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/categories.php
+[+] Form found at http://testphp.vulnweb.com/artists.php -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/artists.php
+[+] Form found at http://testphp.vulnweb.com/disclaimer.php -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/disclaimer.php
+[+] Form found at http://testphp.vulnweb.com/cart.php -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/cart.php
+[+] Form found at http://testphp.vulnweb.com/guestbook.php -> action=''
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/guestbook.php
+[+] Form found at http://testphp.vulnweb.com/guestbook.php -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/guestbook.php
+[+] Form found at http://testphp.vulnweb.com/login.php -> action='userinfo.php'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/login.php
+[+] Form found at http://testphp.vulnweb.com/login.php -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/login.php
+[+] Form found at http://testphp.vulnweb.com/userinfo.php -> action='userinfo.php'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/userinfo.php
+[+] Form found at http://testphp.vulnweb.com/userinfo.php -> action='search.php?test=query'
+    [!] Possible missing CSRF token at http://testphp.vulnweb.com/userinfo.php
+[+] Form found at https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/ -> action='//acunetix.us8.list-manage.com/subscribe/post?u=d7d847f8382b52d46a6547bcd&id=fbd39501d7'
+    [!] Possible missing CSRF token at https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/
+[+] Form found at https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/ -> action='//acunetix.us8.list-manage.com/subscribe/post?u=d7d847f8382b52d46a6547bcd&id=fbd39501d7'
+    [!] Possible missing CSRF token at https://www.acunetix.com/blog/articles/prevent-sql-injection-vulnerabilities-in-php-applications/
+[*] Scan finished. Results saved to report.txt
